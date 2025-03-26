@@ -13,6 +13,10 @@
     width: 100%;
     height: auto;
   }
+
+    .bookmark-button {
+      cursor: pointer;
+    }
   
 .rounded-circle {
   width: 100px;
@@ -20,3 +24,20 @@
   margin: 0 auto;
   /* Centers the circle horizontally */
 }
+        .card-container {
+                    background-color: gray;
+          max-height: 350px;
+          /* Adjust the maximum height as needed */
+          overflow-y: auto;
+        }
+    
+        /* Style the individual cards as needed */
+        .card {
+          background-color: burlywood;
+          width: 45%;
+          /* Adjust the width as per your design, leaving a little space for margins */
+          margin: 2%;
+          /* Add margin between cards */
+        }
+
+        
